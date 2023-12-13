@@ -23,4 +23,14 @@ export const Formulario = styled.form`
     padding: 0 16px;
     outline-color: ${(props) => props.theme.corPrincipal};
   }
+
+  @media (max-width: 768px) {
+    button {
+      height: 32px;
+      padding: 0 4px;
+    }
+    input {
+      padding: 0 8px;
+    }
+  }
 `

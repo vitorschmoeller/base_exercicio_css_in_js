@@ -38,6 +38,7 @@ export const FormuHero = styled.form`
     }
     h2 {
       font-size: 32px;
+      text-align: center;
     }
   }
 `
